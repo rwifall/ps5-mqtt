@@ -28,7 +28,7 @@ const appConfig = getAppConfig();
 createDebugger("@ha:ps5-sensitive:parsed-config")(appConfig);
 
 const createMqtt = async (): Promise<MQTT.AsyncMqttClient> => {
-    return await MQTT.connectAsync(`mqtt://${appConfig.mqtt.host}`, {
+    return await MQTT.connectAsync(`mqtts://${appConfig.mqtt.host}`, {
         password: appConfig.mqtt.pass,
         port: parseInt(appConfig.mqtt.port || "1883", 10),
         username: appConfig.mqtt.user,
