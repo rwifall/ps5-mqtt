@@ -13,7 +13,7 @@
   },
   "author": "",
   "dependencies": {
-    "@reduxjs/toolkit": "^1.9.5",
+    "@reduxjs/toolkit": "^1.9.7",
     "async-mqtt": "^2.6.3",
     "body-parser": "^1.20.1",
     "debug": "^4.3.4",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "@types/debug": "^4.1.7",
     "@types/express": "^4.17.17",
-    "@types/lodash": "^4.14.191",
+    "@types/lodash": "^4.17.7",
     "@types/node": "^18.11.13",
     "@types/node-fetch": "^2.6.2",
     "@types/shelljs": "^0.8.11",
